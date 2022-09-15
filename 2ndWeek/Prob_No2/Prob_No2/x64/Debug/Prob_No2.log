@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\user\Documents\GitHub\ProgrammingCJUAE101-2022\2ndWeek\Prob_No2\Prob_No2\main.cpp(10,11): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\user\Documents\GitHub\ProgrammingCJUAE101-2022\2ndWeek\Prob_No2\Prob_No2\main.cpp(10,11): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\user\Documents\GitHub\ProgrammingCJUAE101-2022\2ndWeek\Prob_No2\Prob_No2\main.cpp(10,11): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\user\Documents\GitHub\ProgrammingCJUAE101-2022\2ndWeek\Prob_No2\Prob_No2\main.cpp(10,11): message : this argument is used as a buffer size
+  Prob_No2.vcxproj -> C:\Users\user\Documents\GitHub\ProgrammingCJUAE101-2022\2ndWeek\Prob_No2\x64\Debug\Prob_No2.exe
