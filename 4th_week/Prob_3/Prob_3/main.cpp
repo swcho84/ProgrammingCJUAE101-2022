@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// arithmetic operation
-
 int main(void)
 {
 	int nA = 0;
@@ -11,6 +9,14 @@ int main(void)
 
 	printf("Input your arithmetic operation:\n");
 	scanf_s("%d%c%d", &nA, &chOper, 1, &nB);
+
+	//scanf_s("%d %c %d", &nA, &chOper, 1, &nB);
+	
+	//scanf_s("%d", &nA);
+	//rewind(stdin);
+	//scanf_s("%c", &chOper, 1);
+	//rewind(stdin);
+	//scanf_s("%d", &nB);
 
 	switch (chOper)
 	{
