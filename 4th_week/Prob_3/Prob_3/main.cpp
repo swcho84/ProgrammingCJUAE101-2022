@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// arithmetic operation
-
 int main(void)
 {
 	int nA = 0;
