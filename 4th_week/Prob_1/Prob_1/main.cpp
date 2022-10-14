@@ -15,7 +15,7 @@ int main(void)
 	if (nChestSize <= MINCHESTSIZE)
 	{
 		chChestSize = 'S';
-	}
+	}   
 	else if ((nChestSize > MINCHESTSIZE) && (nChestSize <= MAXCHESTSIZE))
 	{
 		chChestSize = 'M';
