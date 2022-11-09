@@ -3,7 +3,7 @@
 #include <string.h>
 
 #pragma warning(disable:4996)
-#define COUNTWORD	3
+#define COUNTWORD	5
 #define MAXLENGTH 80
 
 void SwapStr(char* pStrInput[], int a, int b)
@@ -30,7 +30,7 @@ int main(void)
 
 	for (int i = 0; i < COUNTWORD; i++)
 	{
-		for (int j = 1; j < COUNTWORD - 1; j++)
+		for (int j = i; j < COUNTWORD; j++)
 		{
 			if (strcmp(pStrWord[i], pStrWord[j]) > 0)
 			{
